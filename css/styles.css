@@ -344,6 +344,85 @@ i.fas, i.far, i.fa {
     height: 100px;
 }
 
+.pricing {
+    height: 800px;
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.pay-plan {
+    height: 650px;
+    position: relative;
+    top: 150px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*border: 2px solid green;*/
+}
+
+.standard, .premium {
+    position: relative;
+    top: 40px;
+    height: 550px;
+    width: 25%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid slategray;
+}
+
+.professional {
+    height: 600px;
+    width: 25%;
+    margin-right: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    border: 2px solid slategrey;
+}
+
+.professional .top-section {
+    height: 160px;
+}
+
+.top-section {
+    height: 120px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #8F627A;
+    border: 2px solid #8F627A;
+    color: #fafafa;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 25px;
+}
+
+.btm-section {
+    text-align: center;
+    margin: 5px;
+}
+
+.btm-section span {
+    color: #817e7e;
+}
+
+.supp {
+    font-size: 40px;
+}
+
+.supp sup {
+    font-size: 20px;
+}
+
+.planbtn {
+    
+}
+
+
 
 
 
