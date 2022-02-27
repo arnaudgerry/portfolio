@@ -183,7 +183,7 @@ a:link {
 }
 
 .service {
-    height: 220px;
+    height: 160px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -205,10 +205,10 @@ i.fas, i.far, i.fa {
 
 .service-head {
     position: absolute;
-    height: 220px;
+    height: 160px;
     width: 50%;
-    border: 2px solid red;
     text-align: center;
+    /*border: 2px solid red;*/
 }
 
 .service-head h2, h3 {
@@ -233,16 +233,16 @@ i.fas, i.far, i.fa {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
 }
 
 .first-row-services, .second-row-services {
     height: 250px;
     width: 90%;
-    border: 2px solid red;
     margin-top: 5px;
     display: flex;
     flex-direction: row;
+    /*border: 2px solid red;*/
 }
 
 .research, .web, .network {
@@ -266,13 +266,13 @@ i.fas, i.far, i.fa {
     padding-bottom: 30px;
     border: transparent;
     border-radius: 5px 5px;
-    background-color: #cbcbcb;
+    background-color: #6e6868;
     padding: 5px;
     color: white;
 }
 
 .research p, .web p, .network p {
-    color: #fafafa;
+    color: #CBCBCB;
 }
 
 
