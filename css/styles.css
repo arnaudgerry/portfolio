@@ -183,15 +183,14 @@ a:link {
 }
 
 .service {
-    height: 800px;
+    height: 220px;
     position: relative;
     display: flex;
     flex-direction: column;
     margin: auto;
     align-items: center;
-    width: 75%;
     bottom: 20px;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
 }
 
 i.fas, i.far, i.fa {
@@ -200,7 +199,7 @@ i.fas, i.far, i.fa {
 
 .fa-thumbs-up {
     color: #662346;
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 5px;
 }
 
@@ -224,5 +223,58 @@ i.fas, i.far, i.fa {
 .service-head h3 {
     color: slategray;
 }
+
+.services-offered {
+    height: 520px;
+    position: relative;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+}
+
+.first-row-services, .second-row-services {
+    height: 250px;
+    width: 90%;
+    border: 2px solid red;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.research, .web, .network {
+    width: 30%;
+    height: 220px;
+    margin: auto;
+    padding: 10px;
+    background-color: #662346;
+    border: transparent;
+    border-radius: 10px 10px;
+    text-align: left;
+}
+
+.research h3, .web h3, .network h3 {
+    color: #fafafa;
+    padding-top: 10px;
+}
+
+.research i, .web i, .network i {
+    font-size: 30px;
+    padding-bottom: 30px;
+    border: transparent;
+    border-radius: 5px 5px;
+    background-color: #cbcbcb;
+    padding: 5px;
+    color: white;
+}
+
+.research p, .web p, .network p {
+    color: #fafafa;
+}
+
+
 
 
