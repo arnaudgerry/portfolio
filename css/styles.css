@@ -83,3 +83,44 @@ a:link {
     background-repeat: no-repeat;
     background-position: center top;
 }
+
+.headline{
+    height: 400px;
+    width: 40%;
+    margin: auto;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    color: #fafafa;
+    background-color: rgba(112, 128, 144, 0.397);
+     /*border: 2px solid red;*/
+}
+
+.contact-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bienvenue {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.contact-one input {
+    margin: .4rem 0;
+    height: 42px;
+    width: 40%;
+    border: 2px solid #662346;
+    border-radius: 5px 5px;
+    margin-right: 5px;
+    position: relative;
+    top: -5px;
+    padding-left: 10px;
+}
+
+.welcome h2 {
+    padding-top: 30px;
+    font-size: 40px;
+    color: #662346;
+}
