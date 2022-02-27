@@ -124,3 +124,53 @@ a:link {
     font-size: 40px;
     color: #662346;
 }
+
+.about-me {
+    background-image: url("../images/marndwn.webp");
+    height: 800px;
+    position: relative;
+    top: -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+
+.portrait, .portrait-two {
+    height: 600px;
+    width: 20%;
+    margin-right: 20px;
+    position: relative;
+    top: 12%;
+    background-image: url("../images/portrait-ag.png");
+    background-repeat: no-repeat;
+    border: 2px solid slategray;
+    border-radius: 0px 40px 0px 40px;
+}
+
+.portrait-two {
+    background-image: url("../images/charles.jpg");
+    background-size: cover;
+}
+
+
+.aboutme {
+    height: 600px;
+    width:35%;
+    position: relative;
+    top: 12%;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-right: 20px;
+    /*border: 2px solid blue;*/
+}
+
+.titles h2{
+    font-size: 40px;
+    color: #662346;
+}
+
+.learnmore {
+    margin-top: 30px;
+}
