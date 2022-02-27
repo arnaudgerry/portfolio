@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -273,6 +277,70 @@ i.fas, i.far, i.fa {
 
 .research p, .web p, .network p {
     color: #CBCBCB;
+}
+
+.motivation {
+    background-image: url("../images/greyup.webp");
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.skills {
+    height: 400px;
+    background-color: #CBCBCB;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.progress-bars, .job {
+    border: 2px solid green;
+    width: 40%;
+    margin: 10px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.progress-bars h2, .job h2 {
+    text-align: center;
+}
+
+.skills-container {
+    width: 80%;
+    background-color: #fafafa;
+}
+
+.skill {
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.html {
+    width: 90%;
+    background-color: #662346;
+}
+
+.css {
+    width: 80%;
+    background-color: #662346;
+}
+
+.js {
+    width: 65%;
+    background-color: #662346;
+}
+
+.php {
+    width: 60%;
+    background-color: #662346;
+}
+
+.motivation-sec {
+    background-image: url("../images/greydwn.webp");
+    background-repeat: no-repeat;
+    height: 100px;
 }
 
 
