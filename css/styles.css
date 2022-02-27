@@ -288,18 +288,18 @@ i.fas, i.far, i.fa {
 .skills {
     height: 400px;
     background-color: #CBCBCB;
-    border: 2px solid red;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    /*border: 2px solid red;*/
 }
 
 .progress-bars, .job {
-    border: 2px solid green;
     width: 40%;
     margin: 10px;
     padding-left: 20px;
     align-items: center;
+    /*border: 2px solid green;*/
 }
 
 .progress-bars h2, .job h2 {
