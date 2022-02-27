@@ -174,3 +174,55 @@ a:link {
 .learnmore {
     margin-top: 30px;
 }
+
+.styled-header {
+    background-image: url("../images/greydwn.webp");
+    height: 120px;
+    position: relative;
+    top: -20px;
+}
+
+.service {
+    height: 800px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    width: 75%;
+    bottom: 20px;
+    border: 2px solid green;
+}
+
+i.fas, i.far, i.fa {
+    padding: 5px;
+}
+
+.fa-thumbs-up {
+    color: #662346;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.service-head {
+    position: absolute;
+    height: 220px;
+    width: 50%;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.service-head h2, h3 {
+    margin: 0;
+    margin-top: 8px;
+}
+
+.service-head h2 {
+    color: #662346;
+}
+
+.service-head h3 {
+    color: slategray;
+}
+
+
