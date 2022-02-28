@@ -458,20 +458,20 @@ i.fas, i.far, i.fa {
     position: relative;
     margin: auto;
     top: 10%;
-    height: 1200px;
+    height: 1100px;
     width: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
 }
 
 .prt-content {
-    height: 1100px;
+    height: 1000px;
     width: 100%;
     position: absolute;
     top: 10%;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 .header-tags {
@@ -507,7 +507,7 @@ i.fas, i.far, i.fa {
     justify-content: center;
     height: 900px;
     width: 100%;
-    border: 2px solid orange;
+    /*border: 2px solid orange;*/
 }
 
 .row-one, .row-two {
@@ -516,7 +516,7 @@ i.fas, i.far, i.fa {
     margin: 10px;
     display: flex;
     flex-direction: row;
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
 }
 
 .un, .deux, .trois {
@@ -526,7 +526,7 @@ i.fas, i.far, i.fa {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 2px solid slategray;
 }
 
 .une {
@@ -535,7 +535,7 @@ i.fas, i.far, i.fa {
     /*background-image: url("../images/corporate.webp");*/
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid brown;
+    /*border: 2px solid brown;*/
 }
 
 .deuxieme {
@@ -544,7 +544,7 @@ i.fas, i.far, i.fa {
     text-align: center;
     color: #fafafa;
     background-color: #8F627A;
-    border: 2px solid navy;
+    /*border: 2px solid navy;*/
 }
 
 .deuxieme h4 {
@@ -571,6 +571,18 @@ i.fas, i.far, i.fa {
 
 .insuarance {
     background-image: url("../images/insurance.png");
+}
+
+.portfolio-two {
+    background-image: url("../images/portfolio2.png")
+}
+
+.blair-spa {
+    background-image: url("../images/blair.png")
+}
+
+.tech-club {
+    background-image: url("../images/tech.png")
 }
 
 
