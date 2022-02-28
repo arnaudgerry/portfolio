@@ -418,8 +418,36 @@ i.fas, i.far, i.fa {
     font-size: 20px;
 }
 
-.planbtn {
+/*.planbtn {
     
+}*/
+
+.statement {
+    background-image: url("../images/pccover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.statement-wordings {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    text-align: center;
+    
+}
+
+.statement-wordings h2 {
+    color: #fafafa;
+}
+
+.portfolio {
+    height: 700px;
+    border: 2px solid red;
 }
 
 
