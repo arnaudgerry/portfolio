@@ -446,8 +446,38 @@ i.fas, i.far, i.fa {
 }
 
 .portfolio {
+    height: 1200px;
+    background-image: url("../images/marndwn.webp");
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-content {
+    position: relative;
+    margin: auto;
+    top: 10%;
+    border: 2px solid green;
+    height: 800px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prt-content {
     height: 700px;
+    width: 100%;
+    position: absolute;
+    top: 15%;
     border: 2px solid red;
+}
+
+.header-tags {
+    height: 100px;
+    width: 100%;
+    border: 2px solid blue;
 }
 
 
