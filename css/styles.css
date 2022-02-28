@@ -690,6 +690,84 @@ i.fas, i.far, i.fa {
 }
 
 
+.footer{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 45px;
+    background-color: #CBCBCB;
+    /*border: 2px solid red;*/
+}
+
+.footer .info, .repo, .features, .resources, .intouch{
+    height: 250px;
+    width: 15%;
+    font-size: 18px;
+    position: relative;
+    left: 62px;
+    color: #838383;
+    background-color: #CBCBCB;
+    /*border: 2px solid orange;*/
+}
+
+.footer h3{
+    color: #32384E;
+    position: relative;
+    left: 8px;
+}
+
+
+.footer .intouch{
+    width: 20%;
+}
+
+.footer .intouch span{
+    color: #24A6F0;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.footer li{
+    list-style: none;
+    position: relative;
+    left: -33px;
+    padding-bottom: 20px;
+}
+
+.footer li:hover{
+    color: rgb(37, 43, 66);
+}
+
+.btmfooter{
+    height: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(142, 142, 142, 0.959);
+    /*border: 2px solid red;*/
+}
+
+.btmfooter .sign{
+    position: relative;
+    margin-top: 10px;
+    right: 270px;
+    color: #662346;
+}
+
+.btmfooter .socials{
+    color: #662346;
+    font-size: 30px;
+    position: relative;
+    left: 260px;
+    margin-top: 20px;
+}
+
+.fab {
+    margin-left: 20px;
+}
+
 
 
 
