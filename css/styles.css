@@ -446,7 +446,7 @@ i.fas, i.far, i.fa {
 }
 
 .portfolio {
-    height: 1200px;
+    height: 1400px;
     background-image: url("../images/marndwn.webp");
     position: relative;
     display: block;
@@ -458,19 +458,19 @@ i.fas, i.far, i.fa {
     position: relative;
     margin: auto;
     top: 10%;
-    border: 2px solid green;
-    height: 800px;
+    height: 1200px;
     width: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 2px solid green;
 }
 
 .prt-content {
-    height: 700px;
+    height: 1100px;
     width: 100%;
     position: absolute;
-    top: 15%;
+    top: 10%;
     border: 2px solid red;
 }
 
@@ -480,9 +480,8 @@ i.fas, i.far, i.fa {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
 }
-
 
 .port {
     width: 170px;
@@ -501,6 +500,46 @@ i.fas, i.far, i.fa {
 .port:hover {
     background-color: slategray;
 }
+
+.content-plates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 900px;
+    width: 100%;
+    border: 2px solid orange;
+}
+
+.row-one, .row-two {
+    width: 100%;
+    height: 1000px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid yellow;
+}
+
+.un, .deux, .trois {
+    height: 400px;
+    width: 33%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.une {
+    width: 100%;
+    height: 70%;
+    border: 2px solid brown;
+}
+
+.deuxieme {
+    width: 100%;
+    height: 30%;
+    border: 2px solid navy;
+}
+
 
 
 
