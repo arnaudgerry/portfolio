@@ -9,6 +9,11 @@ body {
     box-sizing: border-box;
 }
 
+h4 {
+    padding: 5px;
+    margin: 0;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -446,7 +451,7 @@ i.fas, i.far, i.fa {
 }
 
 .portfolio {
-    height: 1400px;
+    height: 1300px;
     background-image: url("../images/marndwn.webp");
     position: relative;
     display: block;
@@ -586,6 +591,96 @@ i.fas, i.far, i.fa {
 .tech-club {
     background-image: url("../images/tech.png")
 }
+
+.contact-head {
+    position: relative;
+    margin: auto;
+    height: 100px;
+}
+
+.contact-head p {
+    color: #6e6868;
+}
+
+.address-form {
+    height: 400px;
+    width: 77%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /*border: 2px solid red;*/
+}
+
+.address, .form {
+    height: 350px;
+    width: 30%;
+    margin: auto;
+    border: 2px solid green;
+}
+
+.form {
+    height: 350px;
+    width: 60%;
+    margin: auto;
+    border: 2px solid green;
+}
+
+.office-one, .office-two, .working-hours {
+    height: 110px;
+    width: 100%;
+    padding-left: 10px;
+    border: 2px solid blue;
+}
+
+.address h4 {
+    color: #662346;
+}
+
+.address p {
+    color: #6e6868;
+}
+
+.name-email {
+    display: flex;
+    flex-direction: row;
+}
+
+#username, #emaill {
+    margin: auto;
+    height: 50px;
+    width: 48%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #6e6868;
+    border-radius: 5px;
+}
+
+.subject-message {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#subject, #message {
+    margin: auto;
+    height: 50px;
+    width: 98%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #6e6868;
+    border-radius: 5px;
+}
+
+#message {
+    height: 130px;
+}
+
+#message::placeholder {
+    margin: 0;
+    color: red;
+}
+
 
 
 
