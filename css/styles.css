@@ -526,7 +526,7 @@ i.fas, i.far, i.fa {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    border: 2px solid slategray;
+    /*border: 2px solid slategray;*/
 }
 
 .une {
@@ -535,6 +535,7 @@ i.fas, i.far, i.fa {
     /*background-image: url("../images/corporate.webp");*/
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px 10px 0px 0px;
     /*border: 2px solid brown;*/
 }
 
@@ -544,6 +545,7 @@ i.fas, i.far, i.fa {
     text-align: center;
     color: #fafafa;
     background-color: #8F627A;
+    border-radius: 0px 0px 10px 10px;
     /*border: 2px solid navy;*/
 }
 
