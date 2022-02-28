@@ -525,19 +525,52 @@ i.fas, i.far, i.fa {
     margin: auto;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
     border: 2px solid black;
 }
 
 .une {
     width: 100%;
     height: 70%;
+    /*background-image: url("../images/corporate.webp");*/
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 2px solid brown;
 }
 
 .deuxieme {
     width: 100%;
     height: 30%;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8F627A;
     border: 2px solid navy;
+}
+
+.deuxieme h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.deuxieme a {
+    text-decoration: underline;
+    color: black;
+}
+
+.deuxieme a:hover {
+    color: navy;
+}
+
+.mruttu {
+    background-image: url("../images/mruttu.png");
+}
+
+.firstportfolio {
+    background-image: url("../images/virtual.png");
+}
+
+.insuarance {
+    background-image: url("../images/insurance.png");
 }
 
 
