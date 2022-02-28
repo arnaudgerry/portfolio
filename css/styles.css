@@ -61,7 +61,7 @@ a:link {
     margin-left: 250px;
 }
 
-#quotebtn, #startbtn {
+#quotebtn, #startbtn, #send-message {
     width: 170px;
     height: 50px;
     background-color: #662346;
@@ -70,13 +70,15 @@ a:link {
 }
 
 #quotebtn a,
-#startbtn a {
+#startbtn a,
+#send-message a {
     color: white;
     font-size: 20px;
 }
 
 #quotebtn:hover,
-#startbtn:hover {
+#startbtn:hover,
+#send-message:hover {
     background-color: slategray;
 }
 
@@ -616,21 +618,21 @@ i.fas, i.far, i.fa {
     height: 350px;
     width: 30%;
     margin: auto;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
 }
 
 .form {
     height: 350px;
     width: 60%;
     margin: auto;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
 }
 
 .office-one, .office-two, .working-hours {
     height: 110px;
     width: 100%;
     padding-left: 10px;
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
 }
 
 .address h4 {
@@ -677,8 +679,14 @@ i.fas, i.far, i.fa {
 }
 
 #message::placeholder {
-    margin: 0;
-    color: red;
+    text-align: top left;
+}
+
+#send-message {
+   margin-top: 10px;
+   float: right;
+   position: relative;
+   right: 10px;
 }
 
 
